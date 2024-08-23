@@ -1,0 +1,14 @@
+:root{
+  scroll-behavior: smooth;
+  --primary: #41B8AF;
+  --second: #95D7A1;
+  --bg: #333;
+  --bg-light: #F7FAFB;
+  --red:#F7493C;
+  --bg-blue:#316F79;
+
+}
+body{
+  background-color: var(--bg-light);
+  color: var(--bg);
+}

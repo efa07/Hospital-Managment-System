@@ -1,0 +1,127 @@
+/* General styles for the dashboard */
+.doctor-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  .doctor-dashboard h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  /* Patient information section */
+  .patient-info {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .patient-info h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .patient-info p {
+    margin: 5px 0;
+  }
+  
+  .patient-info img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Section styles for history, records, etc. */
+  .appointment-history,
+  .medical-records,
+  .test-results,
+  .prescriptions,
+  .ongoing-treatments,
+  .allergies {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .appointment-history h3,
+  .medical-records h3,
+  .test-results h3,
+  .prescriptions h3,
+  .ongoing-treatments h3,
+  .allergies h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Individual item styles */
+  .appointment-item,
+  .medical-record-item,
+  .test-result-item,
+  .prescription-item,
+  .treatment-item {
+    border-bottom: 1px solid #e9ecef;
+    padding: 10px 0;
+  }
+  
+  .appointment-item:last-child,
+  .medical-record-item:last-child,
+  .test-result-item:last-child,
+  .prescription-item:last-child,
+  .treatment-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* General text styling */
+  p {
+    color: #495057;
+  }
+  
+  strong {
+    color: #343a40;
+  }
+  
+  /* List styling for allergies */
+  .allergies ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .allergies li {
+    margin-bottom: 5px;
+    color: #495057;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    .doctor-dashboard {
+      padding: 10px;
+    }
+  
+    .patient-info img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .appointment-item,
+    .medical-record-item,
+    .test-result-item,
+    .prescription-item,
+    .treatment-item {
+      padding: 8px 0;
+    }
+  }
+  
